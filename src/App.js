@@ -4,7 +4,7 @@ import MaterialTable from 'material-table'
 
 
 function App() {
-  const url = "https://localhost:49155/api/Evento"
+  const url = "https://localhost:49159/api/Evento"
   const [data, setData] = useState([])
   useEffect(() => {
     getData()
